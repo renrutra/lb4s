@@ -1,2 +1,17 @@
 *.class
 *.log
+
+src/test/resources/api_credentials.json
+
+.cache
+.history
+.lib/
+dist/*
+target/
+project/boot/
+project/plugins/project/
+
+
+.scala_dependencies
+.worksheet
+.idea
