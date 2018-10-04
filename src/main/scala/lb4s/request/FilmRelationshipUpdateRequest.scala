@@ -12,7 +12,7 @@ case class FilmRelationshipUpdateRequest(
   watched: Option[Boolean],
   liked: Option[Boolean],
   inWatchlist: Option[Boolean],
-  rating: Option[String]
+  rating: Option[Double]
 )
 
 object FilmRelationshipUpdateRequest {
